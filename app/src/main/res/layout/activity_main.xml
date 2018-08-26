@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="test" />
+
+    <com.example.administrator.myapplication.SegmentEditText
+        android:id="@+id/edit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:inputType="textPassword"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
+    </LinearLayout>
+
+    <com.example.administrator.myapplication.test.MyLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff0000">
+
+        <com.example.administrator.myapplication.test.MyView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.example.administrator.myapplication.test.MyLinearLayout>
+
+</LinearLayout>

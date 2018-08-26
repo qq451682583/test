@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">http</string>
+    <string name="parse_error">解析服务器数据失败</string>
+    <string name="unknown_host_error">无法连接到服务器</string>
+    <string name="socket_timeout">连接超时</string>
+    <string name="socket_error">服务器错误</string>
+    <string name="io_error">服务器错误</string>
+    <string name="upload_qiniu_error">上传图片失败</string>
+    <string name="network_error">网络错误</string>
+    <string name="unknown_error">未知错误</string>
+    <string name="connect_error">连接服务器失败</string>
+    <string name="ssl_error">证书验证失败</string>
+</resources>
